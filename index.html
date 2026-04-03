@@ -1,1 +1,341 @@
-窓辺Info
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madobe Privacy Policy / プライバシーポリシー</title>
+  <style>
+    :root {
+      --bg: #f7f2eb;
+      --card: #fffdf9;
+      --text: #3a2b21;
+      --muted: #7a6a5e;
+      --accent: #a7622b;
+      --border: #e7d7c6;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.04);
+    }
+
+    h1 {
+      font-size: 30px;
+      line-height: 1.3;
+      margin: 0 0 12px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin: 32px 0 12px;
+    }
+
+    h3 {
+      font-size: 17px;
+      margin: 20px 0 8px;
+    }
+
+    p, li {
+      font-size: 15px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .lang-switch {
+      display: inline-flex;
+      gap: 8px;
+      margin: 0 0 20px;
+      padding: 6px;
+      border-radius: 999px;
+      background: #f2e7d9;
+    }
+
+    .lang-switch button {
+      border: 0;
+      background: transparent;
+      color: var(--accent);
+      padding: 10px 16px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .lang-switch button.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .section {
+      margin-bottom: 8px;
+    }
+
+    .lang-block {
+      display: none;
+    }
+
+    .lang-block.active {
+      display: block;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .note {
+      background: #fcf6ef;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      font-size: 14px;
+      color: var(--muted);
+      margin-top: 16px;
+    }
+
+    @media (max-width: 640px) {
+      .container { padding: 16px; }
+      .card { padding: 20px; border-radius: 16px; }
+      h1 { font-size: 24px; }
+      h2 { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="lang-switch" aria-label="Language switcher">
+        <button id="btn-ja" class="active" type="button" onclick="setLang('ja')">日本語</button>
+        <button id="btn-en" type="button" onclick="setLang('en')">English</button>
+      </div>
+
+      <div id="ja" class="lang-block active">
+        <h1>プライバシーポリシー</h1>
+        <div class="meta">
+          アプリ名: Madobe - 七十二候カレンダー<br />
+          最終更新日: 2026年4月2日
+        </div>
+
+        <p>
+          本プライバシーポリシーは、「Madobe - 七十二候カレンダー」（以下「本アプリ」）における、
+          ユーザー情報の取扱いについて定めるものです。
+        </p>
+
+        <h2>1. 取得する情報</h2>
+        <div class="section">
+          <h3>1-1. 本アプリが直接取得する情報</h3>
+          <ul>
+            <li>サブスクリプションの購入状態に関する情報</li>
+            <li>アプリの利用に必要な設定情報</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>1-2. 外部サービスを通じて取得される情報</h3>
+          <p>本アプリでは、以下の外部サービスを利用する場合があります。</p>
+          <ul>
+            <li>RevenueCat: サブスクリプション状態の管理のため</li>
+            <li>Google AdMob: 広告配信および広告効果測定のため</li>
+          </ul>
+          <p>
+            これらの外部サービスでは、広告識別子、利用状況、端末情報等が取得される場合があります。
+            取得される情報、利用目的、第三者提供等の詳細については、各サービス提供者のポリシーをご確認ください。
+          </p>
+        </div>
+
+        <h2>2. 利用目的</h2>
+        <ul>
+          <li>本アプリの機能提供および改善のため</li>
+          <li>サブスクリプションの状態確認、購入復元のため</li>
+          <li>広告の表示、配信、最適化のため</li>
+          <li>不具合調査、利用状況分析、品質向上のため</li>
+        </ul>
+
+        <h2>3. 第三者提供</h2>
+        <p>
+          開発者は、法令に基づく場合を除き、個人情報をユーザーの同意なく第三者に提供しません。
+          ただし、前記外部サービスの利用に伴い、各サービス提供者による情報の取扱いが行われる場合があります。
+        </p>
+
+        <h2>4. 情報の管理</h2>
+        <p>
+          開発者は、取得した情報について、不正アクセス、漏えい、改ざん等の防止に努めます。
+          ただし、インターネット通信や外部サービス利用に伴う完全な安全性を保証するものではありません。
+        </p>
+
+        <h2>5. 子どもの利用について</h2>
+        <p>
+          本アプリは一般ユーザー向けです。開発者は、意図的に13歳未満の子どもから個人情報を収集することを目的としていません。
+        </p>
+
+        <h2>6. 外部サービスのプライバシーポリシー</h2>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat Privacy Policy</a></li>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+          <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Policies</a></li>
+        </ul>
+
+        <h2>7. プライバシーポリシーの変更</h2>
+        <p>
+          開発者は、必要に応じて本プライバシーポリシーを改定することがあります。
+          重要な変更がある場合は、本ページの更新等により告知します。
+        </p>
+
+        <h2>8. お問い合わせ</h2>
+        <p>
+          本プライバシーポリシーに関するお問い合わせは、以下までご連絡ください。<br />
+          メールアドレス: <a href="mailto:pluma.hatchery@gmail.com">pluma.hatchery@gmail.com</a>
+        </p>
+
+        <div class="note">
+        </div>
+      </div>
+
+      <div id="en" class="lang-block">
+        <h1>Privacy Policy</h1>
+        <div class="meta">
+          App Name: Madobe - Microseason Calendar<br />
+          Last Updated: April 2, 2026
+        </div>
+
+        <p>
+          This Privacy Policy explains how information is handled in “Madobe - Microseason Calendar” (the “App”).
+        </p>
+
+        <h2>1. Information We Collect</h2>
+        <div class="section">
+          <h3>1-1. Information collected directly by the App</h3>
+          <ul>
+            <li>Subscription status information</li>
+            <li>App settings required for providing the service</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>1-2. Information collected through third-party services</h3>
+          <p>The App may use the following third-party services:</p>
+          <ul>
+            <li>RevenueCat: for subscription management</li>
+            <li>Google AdMob: for ad delivery and ad performance measurement</li>
+          </ul>
+          <p>
+            These services may collect information such as advertising identifiers, usage data, and device information.
+            For details on what is collected and how it is used, please refer to the privacy policies of the respective providers.
+          </p>
+        </div>
+
+        <h2>2. Purpose of Use</h2>
+        <ul>
+          <li>To provide and improve the App</li>
+          <li>To verify subscription status and restore purchases</li>
+          <li>To display, deliver, and optimize advertisements</li>
+          <li>To investigate issues, analyze usage, and improve quality</li>
+        </ul>
+
+        <h2>3. Sharing with Third Parties</h2>
+        <p>
+          Except as required by law, the developer does not provide personal information to third parties without user consent.
+          However, information may be processed by third-party service providers in connection with the services described above.
+        </p>
+
+        <h2>4. Information Management</h2>
+        <p>
+          The developer will make reasonable efforts to prevent unauthorized access, leakage, loss, or alteration of collected information.
+          However, complete security cannot be guaranteed for internet communications or third-party services.
+        </p>
+
+        <h2>5. Children’s Privacy</h2>
+        <p>
+          The App is intended for a general audience. The developer does not knowingly collect personal information from children under 13.
+        </p>
+
+        <h2>6. Third-Party Privacy Policies</h2>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat Privacy Policy</a></li>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+          <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Policies</a></li>
+        </ul>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>
+          The developer may revise this Privacy Policy from time to time.
+          Material changes will be announced by updating this page or through other appropriate means.
+        </p>
+
+        <h2>8. Contact</h2>
+        <p>
+          If you have any questions about this Privacy Policy, please contact:<br />
+          Email: <a href="mailto:pluma.hatchery@gmail.com">pluma.hatchery@gmail.com</a>
+        </p>
+
+        <div class="note">
+        </div>
+      </div>
+
+      <div class="footer">
+        © 2026 Madobe
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      const ja = document.getElementById('ja');
+      const en = document.getElementById('en');
+      const btnJa = document.getElementById('btn-ja');
+      const btnEn = document.getElementById('btn-en');
+
+      if (lang === 'ja') {
+        ja.classList.add('active');
+        en.classList.remove('active');
+        btnJa.classList.add('active');
+        btnEn.classList.remove('active');
+        document.documentElement.lang = 'ja';
+      } else {
+        en.classList.add('active');
+        ja.classList.remove('active');
+        btnEn.classList.add('active');
+        btnJa.classList.remove('active');
+        document.documentElement.lang = 'en';
+      }
+    }
+  </script>
+</body>
+</html>
